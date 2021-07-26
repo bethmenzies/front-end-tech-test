@@ -13,20 +13,18 @@ When('I select the Darts sports page', () => {
     cy.get('#extendedMenu__link__darts').click()
 })
 
-When('I select a Darts event', () => {
-    // it looks like there aren't any darts events
-    //so just going to verify that the outrights tab is selected
-    cy.get('#link__outrights').should('have.class', 'active')
+When('I select the calendar', () => {
+    cy.get('#link__daily > a').click()
 })
 
 Then('I verify that I am on the Darts sports page', () => {
     cy.location('hash').should('eq', '#/darts/outrights')
 })
 
-Then('I verify that I am on the Darts event page', () => {
+Then('I verify that I am on the Darts calendar page', () => {
     cy.location('hash').should('eq', '#/darts/outrights')
 })
 
-And('I verify that an events GET request has been made', () => {
-    
+And('I verify that there are no events', () => {
+    cy.get('.SportDailyView > .no-results-msg').should('be.visible').should('contain', 'No events or markets presently available. Please check again later.')
 })
