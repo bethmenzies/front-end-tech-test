@@ -22,9 +22,16 @@
   "homepage": "https://github.com/bethmenzies/front-end-tech-test#readme",
   "devDependencies": {
     "cypress": "^8.0.0",
-    "cypress-cucumber-preprocessor": "^4.2.0"
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }

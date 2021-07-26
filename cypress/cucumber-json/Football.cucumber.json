@@ -1,0 +1,123 @@
+[
+  {
+    "description": "I want to navigate PokerStars to a Football event",
+    "keyword": "Feature",
+    "name": "Viewing a Football event",
+    "line": 1,
+    "id": "viewing-a-football-event",
+    "tags": [],
+    "uri": "Football.feature",
+    "elements": [
+      {
+        "id": "viewing-a-football-event;navigating-to-the-football-sport-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Navigating to the Football sport page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the 'home' page",
+            "result": {
+              "status": "passed",
+              "duration": 91160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the 'soccer' sports page",
+            "result": {
+              "status": "passed",
+              "duration": 1117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that I am on the 'soccer' sports page",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "viewing-a-football-event;navigating-to-a-football-event",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Navigating to a Football event",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the 'soccer' page",
+            "result": {
+              "status": "passed",
+              "duration": 6011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on 'Tomorrow' day",
+            "result": {
+              "status": "passed",
+              "duration": 2080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that there are events",
+            "result": {
+              "status": "passed",
+              "duration": 2547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on the first event",
+            "result": {
+              "status": "passed",
+              "duration": 974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify that I am on the 'soccer' event page",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I verify that a GET event request was made",
+            "result": {
+              "status": "passed",
+              "duration": 781000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

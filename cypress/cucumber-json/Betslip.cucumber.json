@@ -1,0 +1,313 @@
+[
+  {
+    "description": "I want to add an outcome to a betslip then remove it",
+    "keyword": "Feature",
+    "name": "Interact with the Betslip",
+    "line": 1,
+    "id": "interact-with-the-betslip",
+    "tags": [],
+    "uri": "Betslip.feature",
+    "elements": [
+      {
+        "id": "interact-with-the-betslip;adding-and-removing-an-outcome-from-a-sport-betslip",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Adding and removing an outcome from a sport betslip",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the 'soccer' calendar page",
+            "result": {
+              "status": "passed",
+              "duration": 31120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on 'Tomorrow' day",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that there are events",
+            "result": {
+              "status": "passed",
+              "duration": 2498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the first event",
+            "result": {
+              "status": "passed",
+              "duration": 996000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify that I am on the 'soccer' event page",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on an 'Match Result'",
+            "result": {
+              "status": "passed",
+              "duration": 1790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "that 'Match Result' is added to the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 1301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I remove that 'Match Result' from the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the betslip is empty",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "interact-with-the-betslip;adding-and-removing-an-outcome-from-a-sport-betslip",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Adding and removing an outcome from a sport betslip",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the 'tennis' calendar page",
+            "result": {
+              "status": "passed",
+              "duration": 5649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on 'Tomorrow' day",
+            "result": {
+              "status": "passed",
+              "duration": 1954000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that there are events",
+            "result": {
+              "status": "passed",
+              "duration": 1265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the first event",
+            "result": {
+              "status": "passed",
+              "duration": 1385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify that I am on the 'tennis' event page",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on an 'Total Games'",
+            "result": {
+              "status": "passed",
+              "duration": 927000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "that 'Total Games' is added to the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I remove that 'Total Games' from the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 411000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the betslip is empty",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "interact-with-the-betslip;adding-and-removing-an-outcome-from-a-sport-betslip",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Adding and removing an outcome from a sport betslip",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the 'basketball' calendar page",
+            "result": {
+              "status": "passed",
+              "duration": 6035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on 'Tomorrow' day",
+            "result": {
+              "status": "passed",
+              "duration": 2149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that there are events",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the first event",
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify that I am on the 'basketball' event page",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on an 'Total Points'",
+            "result": {
+              "status": "passed",
+              "duration": 1961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "that 'Total Points' is added to the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 1544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I remove that 'Total Points' from the betslip",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the betslip is empty",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
