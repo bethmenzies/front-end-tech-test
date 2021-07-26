@@ -1,3 +1,4 @@
 {
+    "baseUrl": "https://www.pokerstarssports.uk",
     "testFiles": "**/*.{feature,features}"
 }
