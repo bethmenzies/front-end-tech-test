@@ -9,7 +9,7 @@ When('I click on an {string}', (outcome) => {
 
 Then('that {string} is added to the betslip', (outcome) => {
     cy.get('.icon-tick').should('be.visible')
-    cy.get('.betslipToggle').click()
+    if (Cypress.config("viewportWidth") < 1111) cy.get('.betslipToggle').click()
     cy.get('#bet-slip').should('be.visible').within(() => {
         cy.contains(outcome).should('be.visible')
     })
