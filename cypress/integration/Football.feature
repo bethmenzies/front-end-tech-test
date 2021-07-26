@@ -11,5 +11,5 @@ Given I am on the 'soccer' page
 When I click on 'Tomorrow' day
 Then I verify that there are events
 When I click on the first event
-Then I verify that I am on the event page
+Then I verify that I am on the 'soccer' event page
 And I verify that a GET event request was made
