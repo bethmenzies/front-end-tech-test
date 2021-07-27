@@ -13,20 +13,24 @@ Given('I am on the {string} calendar page', (sport) => {
 })
 
 When('I select the {string} sports page', (sport) => {
+    cy.get('.content-loading').should('not.be.visible')
     cy.get('#showExtendedMenu').click()
     cy.get(`#extendedMenu__link__${sport}`).click()
 })
 
 When('I select the calendar', () => {
+    cy.get('.content-loading').should('not.be.visible')
     cy.get('#link__daily > a').click()
 })
 
 When('I click on {string} day', (day) => {
+    cy.get('.content-loading').should('not.be.visible')
     cy.contains(`${day}`).click()
 })
 
 When('I click on the first event', () => {
     cy.intercept('GET', '/sportsbook/v1/api/getEvent*').as('getEvent')
+    cy.get('.content-loading').should('not.be.visible')
     cy.get('[id^=event-schedule-market-]:first').within(() => {
         cy.get('.textLink').click()
     })

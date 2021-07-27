@@ -15,5 +15,5 @@ Then the betslip is empty
 Examples:
 | sport | outcome |
 | soccer | Match Result |
-| tennis | Total Games |
+| cricket | Match Result |
 | basketball | Total Points |
